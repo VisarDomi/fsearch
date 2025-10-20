@@ -1,0 +1,7 @@
+{
+    "watch": ["."],
+    "ext": "js,jsx,ts,tsx,html,css,scss,json,md,yml",
+    "ignore": [".git"],
+    "exec": "repomix --config repomix.config.json",
+    "verbose": false
+}

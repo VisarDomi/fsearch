@@ -1,0 +1,20 @@
+{
+    "output": {
+        "filePath": "repomix-output.xml",
+        "style": "xml"
+    },
+    "include": [
+        "src/menus.ui",
+        "src/fsearch_listview_popup.c",
+        "src/fsearch_window_actions.c",
+        "src/fsearch_window_actions.h",
+        "src/fsearch_selection.h",
+        "src/fsearch_database.h",
+        "src/fsearch_database_entry.h"
+    ],
+    "ignore": {
+        "useGitignore": true,
+        "useDefaultPatterns": true,
+        "customPatterns": [".git/**"]
+    }
+}
